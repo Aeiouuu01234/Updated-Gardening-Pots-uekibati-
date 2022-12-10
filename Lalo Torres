@@ -1,0 +1,10 @@
+   {
+       "type": "MOD_INFO",
+       "mod_type": "SUPPLEMENTAL",
+       "ident": "Uekibati_mod",
+       "name": "Updated Gardening Pots(uekibati)",
+       "description": "This mod adds growing plants inside flower pots. The perfect complement for survivors with extra space in their deathmobile ",
+       "author": "火男 - Translated by Chesthole - Updated by LaloTorres",
+		"category": "items",
+       "path": ""
+   }
