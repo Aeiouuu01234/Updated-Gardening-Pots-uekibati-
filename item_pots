@@ -2,5 +2,5 @@
 {
 "abstract":G_Pot,
 "type": "GENERIC",
-"name": "Gardening pot",
-""copy-from"": "clay_pot_flower",
+"name": {"str": "gardening pot"},
+"copy-from": "clay_pot_flower",
