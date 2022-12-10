@@ -1,5 +1,6 @@
 [
 {
+"abstract":G_Pot,
 "type": "GENERIC",
-"id": "Planted_Pot",
-""copy-from"":"clay_pot_flower",
+"name": "Gardening pot",
+""copy-from"": "clay_pot_flower",
