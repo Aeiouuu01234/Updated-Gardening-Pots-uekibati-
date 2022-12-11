@@ -13,14 +13,14 @@
     "id": "pot_tomato",
     "type": "GENERIC",
     "category": "other",
-    "name": { "str": "Garden Tomato Pot", "str_pl": "Garden Tomato Pots" },
-    "description": "The sprout of a crop planted inside this nice looking pot.",
+    "name": { "str": "tomatoes on a gardening pot" },
+    "description": "The sprout of a crop planted inside a nice looking pot.",
     "use_action": {
       "target": "pot_tomato_done",
       "msg": "The sprout has grown into a beautiful plant, Nature is Incredible.",
       "moves": 100,
       "type": "delayed_transform",
-      "transform_age": 1000,
+      "transform_age": 100,
       "not_ready_msg": "The crop is not ready to harvest yet."
     }
   },
@@ -29,7 +29,432 @@
     "id": "pot_tomato_done",
     "type": "GENERIC",
     "category": "other",
-    "name": { "str": "Grown Tomato Pot", "str_pl": "Grown Tomato Pots" },
+    "name": { "str": "Grown tomato pot", "str_pl": "Grown Tomato Pots" },
+    "description": "A garden crop, fully grown and ready to harvest. Deconstruct to claim your prize."
+  },
+  {
+    "//": "HOPS FLOWERS------------------------------------------------------------------------------------------------",
+    "copy-from": "g_pot",
+    "id": "pot_hops",
+    "type": "GENERIC",
+    "category": "other",
+    "name": { "str": "hops flowers on a gardening pot" },
+    "description": "The sprout of a crop planted inside a nice looking pot.",
+    "use_action": {
+      "target": "pot_hops_done",
+      "msg": "The sprout has grown into a beautiful plant, Nature is Incredible.",
+      "moves": 100,
+      "type": "delayed_transform",
+      "transform_age": 100,
+      "not_ready_msg": "The crop is not ready to harvest yet."
+    }
+  },
+  {
+    "copy-from": "g_pot",
+    "id": "pot_hops_done",
+    "type": "GENERIC",
+    "category": "other",
+    "name": { "str": "Grown hops flowers" },
+    "description": "A garden crop, fully grown and ready to harvest. Deconstruct to claim your prize."
+  },
+  {
+    "//": "BLACKBERRIES------------------------------------------------------------------------------------------------",
+    "copy-from": "g_pot",
+    "id": "pot_blackberries",
+    "type": "GENERIC",
+    "category": "other",
+    "name": { "str": "blackberries on a gardening pot" },
+    "description": "The sprout of a crop planted inside a nice looking pot.",
+    "use_action": {
+      "target": "pot_blackberries_done",
+      "msg": "The sprout has grown into a beautiful plant, Nature is Incredible.",
+      "moves": 100,
+      "type": "delayed_transform",
+      "transform_age": 100,
+      "not_ready_msg": "The crop is not ready to harvest yet."
+    }
+  },
+  {
+    "copy-from": "g_pot",
+    "id": "pot_blackberries_done",
+    "type": "GENERIC",
+    "category": "other",
+    "name": { "str": "Grown blackberries" },
+    "description": "A garden crop, fully grown and ready to harvest. Deconstruct to claim your prize."
+  },
+  {
+    "//": "BLUEBERRIES------------------------------------------------------------------------------------------------",
+    "copy-from": "g_pot",
+    "id": "pot_blueberries",
+    "type": "GENERIC",
+    "category": "other",
+    "name": { "str": "blueberries on a gardening pot" },
+    "description": "The sprout of a crop planted inside a nice looking pot.",
+    "use_action": {
+      "target": "pot_blueberries_done",
+      "msg": "The sprout has grown into a beautiful plant, Nature is Incredible.",
+      "moves": 100,
+      "type": "delayed_transform",
+      "transform_age": 100,
+      "not_ready_msg": "The crop is not ready to harvest yet."
+    }
+  },
+  {
+    "copy-from": "g_pot",
+    "id": "pot_blueberries_done",
+    "type": "GENERIC",
+    "category": "other",
+    "name": { "str": "Grown blueberries" },
+    "description": "A garden crop, fully grown and ready to harvest. Deconstruct to claim your prize."
+  },
+  {
+    "//": "CRANBERRIES------------------------------------------------------------------------------------------------",
+    "copy-from": "g_pot",
+    "id": "pot_cranberries",
+    "type": "GENERIC",
+    "category": "other",
+    "name": { "str": "cranberries on a gardening pot" },
+    "description": "The sprout of a crop planted inside a nice looking pot.",
+    "use_action": {
+      "target": "pot_cranberries_done",
+      "msg": "The sprout has grown into a beautiful plant, Nature is Incredible.",
+      "moves": 100,
+      "type": "delayed_transform",
+      "transform_age": 100,
+      "not_ready_msg": "The crop is not ready to harvest yet."
+    }
+  },
+  {
+    "copy-from": "g_pot",
+    "id": "pot_cranberries_done",
+    "type": "GENERIC",
+    "category": "other",
+    "name": { "str": "Grown cranberries" },
+    "description": "A garden crop, fully grown and ready to harvest. Deconstruct to claim your prize."
+  },
+  {
+    "//": "HUCKLEBERRIES------------------------------------------------------------------------------------------------",
+    "copy-from": "g_pot",
+    "id": "pot_huckleberries",
+    "type": "GENERIC",
+    "category": "other",
+    "name": { "str": "huckleberries on a gardening pot" },
+    "description": "The sprout of a crop planted inside a nice looking pot.",
+    "use_action": {
+      "target": "pot_huckleberries_done",
+      "msg": "The sprout has grown into a beautiful plant, Nature is Incredible.",
+      "moves": 100,
+      "type": "delayed_transform",
+      "transform_age": 100,
+      "not_ready_msg": "The crop is not ready to harvest yet."
+    }
+  },
+  {
+    "copy-from": "g_pot",
+    "id": "pot_huckleberries_done",
+    "type": "GENERIC",
+    "category": "other",
+    "name": { "str": "Grown huckleberries" },
+    "description": "A garden crop, fully grown and ready to harvest. Deconstruct to claim your prize."
+  },
+  {
+    "//": "MULBERRIES------------------------------------------------------------------------------------------------",
+    "copy-from": "g_pot",
+    "id": "pot_mulberries",
+    "type": "GENERIC",
+    "category": "other",
+    "name": { "str": "mulberries on a gardening pot" },
+    "description": "The sprout of a crop planted inside a nice looking pot.",
+    "use_action": {
+      "target": "pot_mulberries_done",
+      "msg": "The sprout has grown into a beautiful plant, Nature is Incredible.",
+      "moves": 100,
+      "type": "delayed_transform",
+      "transform_age": 100,
+      "not_ready_msg": "The crop is not ready to harvest yet."
+    }
+  },
+  {
+    "copy-from": "g_pot",
+    "id": "pot_mulberries_done",
+    "type": "GENERIC",
+    "category": "other",
+    "name": { "str": "Grown mulberries" },
+    "description": "A garden crop, fully grown and ready to harvest. Deconstruct to claim your prize."
+  },
+  {
+    "//": "ELDERBERRIES------------------------------------------------------------------------------------------------",
+    "copy-from": "g_pot",
+    "id": "pot_elderberries",
+    "type": "GENERIC",
+    "category": "other",
+    "name": { "str": "elderberries on a gardening pot" },
+    "description": "The sprout of a crop planted inside a nice looking pot.",
+    "use_action": {
+      "target": "pot_elderberries_done",
+      "msg": "The sprout has grown into a beautiful plant, Nature is Incredible.",
+      "moves": 100,
+      "type": "delayed_transform",
+      "transform_age": 100,
+      "not_ready_msg": "The crop is not ready to harvest yet."
+    }
+  },
+  {
+    "copy-from": "g_pot",
+    "id": "pot_elderberries_done",
+    "type": "GENERIC",
+    "category": "other",
+    "name": { "str": "Grown elderberries" },
+    "description": "A garden crop, fully grown and ready to harvest. Deconstruct to claim your prize."
+  },
+  {
+    "//": "RASPBERRIES------------------------------------------------------------------------------------------------",
+    "copy-from": "g_pot",
+    "id": "pot_raspberries",
+    "type": "GENERIC",
+    "category": "other",
+    "name": { "str": "raspberries on a gardening pot" },
+    "description": "The sprout of a crop planted inside a nice looking pot.",
+    "use_action": {
+      "target": "pot_raspberries_done",
+      "msg": "The sprout has grown into a beautiful plant, Nature is Incredible.",
+      "moves": 100,
+      "type": "delayed_transform",
+      "transform_age": 100,
+      "not_ready_msg": "The crop is not ready to harvest yet."
+    }
+  },
+  {
+    "copy-from": "g_pot",
+    "id": "pot_raspberries_done",
+    "type": "GENERIC",
+    "category": "other",
+    "name": { "str": "Grown raspberries" },
+    "description": "A garden crop, fully grown and ready to harvest. Deconstruct to claim your prize."
+  },
+  {
+    "//": "STRAWBERRIES------------------------------------------------------------------------------------------------",
+    "copy-from": "g_pot",
+    "id": "pot_strawberries",
+    "type": "GENERIC",
+    "category": "other",
+    "name": { "str": "strawberries on a gardening pot" },
+    "description": "The sprout of a crop planted inside a nice looking pot.",
+    "use_action": {
+      "target": "pot_strawberries_done",
+      "msg": "The sprout has grown into a beautiful plant, Nature is Incredible.",
+      "moves": 100,
+      "type": "delayed_transform",
+      "transform_age": 100,
+      "not_ready_msg": "The crop is not ready to harvest yet."
+    }
+  },
+  {
+    "copy-from": "g_pot",
+    "id": "pot_strawberries_done",
+    "type": "GENERIC",
+    "category": "other",
+    "name": { "str": "Grown strawberries" },
+    "description": "A garden crop, fully grown and ready to harvest. Deconstruct to claim your prize."
+  },
+  {
+    "//": "GRAPES------------------------------------------------------------------------------------------------",
+    "copy-from": "g_pot",
+    "id": "pot_grapes",
+    "type": "GENERIC",
+    "category": "other",
+    "name": { "str": "grapes on a gardening pot" },
+    "description": "The sprout of a crop planted inside a nice looking pot.",
+    "use_action": {
+      "target": "pot_grapes_done",
+      "msg": "The sprout has grown into a beautiful plant, Nature is Incredible.",
+      "moves": 100,
+      "type": "delayed_transform",
+      "transform_age": 100,
+      "not_ready_msg": "The crop is not ready to harvest yet."
+    }
+  },
+  {
+    "copy-from": "g_pot",
+    "id": "pot_grapes_done",
+    "type": "GENERIC",
+    "category": "other",
+    "name": { "str": "Grown grapes" },
+    "description": "A garden crop, fully grown and ready to harvest. Deconstruct to claim your prize."
+  },
+  {
+    "//": "ROSES------------------------------------------------------------------------------------------------",
+    "copy-from": "g_pot",
+    "id": "pot_roses",
+    "type": "GENERIC",
+    "category": "other",
+    "name": { "str": "roses on a gardening pot" },
+    "description": "The sprout of a crop planted inside a nice looking pot.",
+    "use_action": {
+      "target": "pot_roses_done",
+      "msg": "The sprout has grown into a beautiful plant, Nature is Incredible.",
+      "moves": 100,
+      "type": "delayed_transform",
+      "transform_age": 100,
+      "not_ready_msg": "The crop is not ready to harvest yet."
+    }
+  },
+  {
+    "copy-from": "g_pot",
+    "id": "pot_roses_done",
+    "type": "GENERIC",
+    "category": "other",
+    "name": { "str": "Grown roses" },
+    "description": "A garden crop, fully grown and ready to harvest. Deconstruct to claim your prize."
+  },
+  {
+    "//": "TOBACCO------------------------------------------------------------------------------------------------",
+    "copy-from": "g_pot",
+    "id": "pot_tobacco",
+    "type": "GENERIC",
+    "category": "other",
+    "name": { "str": "tobacco on a gardening pot" },
+    "description": "The sprout of a crop planted inside a nice looking pot.",
+    "use_action": {
+      "target": "pot_tobacco_done",
+      "msg": "The sprout has grown into a beautiful plant, Nature is Incredible.",
+      "moves": 100,
+      "type": "delayed_transform",
+      "transform_age": 100,
+      "not_ready_msg": "The crop is not ready to harvest yet."
+    }
+  },
+  {
+    "copy-from": "g_pot",
+    "id": "pot_tobacco_done",
+    "type": "GENERIC",
+    "category": "other",
+    "name": { "str": "Grown tobacco" },
+    "description": "A garden crop, fully grown and ready to harvest. Deconstruct to claim your prize."
+  },
+  {
+    "//": "BARLEY------------------------------------------------------------------------------------------------",
+    "copy-from": "g_pot",
+    "id": "pot_barley",
+    "type": "GENERIC",
+    "category": "other",
+    "name": { "str": "barley on a gardening pot" },
+    "description": "The sprout of a crop planted inside a nice looking pot.",
+    "use_action": {
+      "target": "pot_barley_done",
+      "msg": "The sprout has grown into a beautiful plant, Nature is Incredible.",
+      "moves": 100,
+      "type": "delayed_transform",
+      "transform_age": 100,
+      "not_ready_msg": "The crop is not ready to harvest yet."
+    }
+  },
+  {
+    "copy-from": "g_pot",
+    "id": "pot_barley_done",
+    "type": "GENERIC",
+    "category": "other",
+    "name": { "str": "Grown barley" },
+    "description": "A garden crop, fully grown and ready to harvest. Deconstruct to claim your prize."
+  },
+  {
+    "//": "SUGAR BEET------------------------------------------------------------------------------------------------",
+    "copy-from": "g_pot",
+    "id": "pot_sugar_beet",
+    "type": "GENERIC",
+    "category": "other",
+    "name": { "str": "sugar beet on a gardening pot" },
+    "description": "The sprout of a crop planted inside a nice looking pot.",
+    "use_action": {
+      "target": "pot_sugar_beet_done",
+      "msg": "The sprout has grown into a beautiful plant, Nature is Incredible.",
+      "moves": 100,
+      "type": "delayed_transform",
+      "transform_age": 100,
+      "not_ready_msg": "The crop is not ready to harvest yet."
+    }
+  },
+  {
+    "copy-from": "g_pot",
+    "id": "pot_sugar_beet_done",
+    "type": "GENERIC",
+    "category": "other",
+    "name": { "str": "Grown sugar beet" },
+    "description": "A garden crop, fully grown and ready to harvest. Deconstruct to claim your prize."
+  },
+  {
+    "//": "LETTUCE------------------------------------------------------------------------------------------------",
+    "copy-from": "g_pot",
+    "id": "pot_lettuce",
+    "type": "GENERIC",
+    "category": "other",
+    "name": { "str": "lettuce on a gardening pot" },
+    "description": "The sprout of a crop planted inside a nice looking pot.",
+    "use_action": {
+      "target": "pot_lettuce_done",
+      "msg": "The sprout has grown into a beautiful plant, Nature is Incredible.",
+      "moves": 100,
+      "type": "delayed_transform",
+      "transform_age": 100,
+      "not_ready_msg": "The crop is not ready to harvest yet."
+    }
+  },
+  {
+    "copy-from": "g_pot",
+    "id": "pot_lettuce_done",
+    "type": "GENERIC",
+    "category": "other",
+    "name": { "str": "Grown lettuce" },
+    "description": "A garden crop, fully grown and ready to harvest. Deconstruct to claim your prize."
+  },
+  {
+    "//": "CABBAGE------------------------------------------------------------------------------------------------",
+    "copy-from": "g_pot",
+    "id": "pot_cabbage",
+    "type": "GENERIC",
+    "category": "other",
+    "name": { "str": "cabbage on a gardening pot" },
+    "description": "The sprout of a crop planted inside a nice looking pot.",
+    "use_action": {
+      "target": "pot_cabbage_done",
+      "msg": "The sprout has grown into a beautiful plant, Nature is Incredible.",
+      "moves": 100,
+      "type": "delayed_transform",
+      "transform_age": 100,
+      "not_ready_msg": "The crop is not ready to harvest yet."
+    }
+  },
+  {
+    "copy-from": "g_pot",
+    "id": "pot_cabbage_done",
+    "type": "GENERIC",
+    "category": "other",
+    "name": { "str": "Grown cabbage" },
+    "description": "A garden crop, fully grown and ready to harvest. Deconstruct to claim your prize."
+  },
+  {
+    "//": "COTTON------------------------------------------------------------------------------------------------",
+    "copy-from": "g_pot",
+    "id": "pot_cotton_boll",
+    "type": "GENERIC",
+    "category": "other",
+    "name": { "str": "cotton bolls on a gardening pot" },
+    "description": "The sprout of a crop planted inside a nice looking pot.",
+    "use_action": {
+      "target": "pot_cotton_boll_done",
+      "msg": "The sprout has grown into a beautiful plant, Nature is Incredible.",
+      "moves": 100,
+      "type": "delayed_transform",
+      "transform_age": 100,
+      "not_ready_msg": "The crop is not ready to harvest yet."
+    }
+  },
+  {
+    "copy-from": "g_pot",
+    "id": "pot_cotton_boll_done",
+    "type": "GENERIC",
+    "category": "other",
+    "name": { "str": "Grown cotton bolls" },
     "description": "A garden crop, fully grown and ready to harvest. Deconstruct to claim your prize."
   }
 ]
