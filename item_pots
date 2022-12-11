@@ -1,6 +1,0 @@
-[
-{
-"abstract":G_Pot,
-"type": "GENERIC",
-"name": {"str": "gardening pot"},
-"copy-from": "clay_pot_flower",
