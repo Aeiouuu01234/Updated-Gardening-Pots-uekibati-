@@ -1,0 +1,18 @@
+[
+  {
+    "//": "TOMATOES----------------------------------------------------------------------------------------------------",
+    "result": "pot_tomato_done",
+    "type": "uncraft",
+    "activity_level": "LIGHT_EXERCISE",
+    "skill_used": "fabrication",
+    "time": "10 m",
+    "difficulty": 1,
+    "components": [
+      [ [ "withered", 3 ] ],
+      [ [ "seed_tomato", 1 ] ],
+      [ [ "tomato", 10 ] ],
+      [ [ "material_soil", 1 ] ],
+      [ [ "clay_pot_flower", 1 ] ]
+    ]
+  }
+]

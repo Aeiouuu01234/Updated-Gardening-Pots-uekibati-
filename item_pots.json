@@ -1,0 +1,35 @@
+[
+  {
+    "abstract": "g_pot",
+    "type": "GENERIC",
+    "name": "gardening pot",
+    "copy-from": "clay_pot_flower",
+    "weight": "7kg",
+    "material": [ { "type": "clay", "portion": 4 }, { "type": "soil", "portion": 4 }, { "type": "veggy", "portion": 2 } ]
+  },
+  {
+    "//": "TOMATOES----------------------------------------------------------------------------------------------------",
+    "copy-from": "g_pot",
+    "id": "pot_tomato",
+    "type": "GENERIC",
+    "category": "other",
+    "name": { "str": "Garden Tomato Pot", "str_pl": "Garden Tomato Pots" },
+    "description": "The sprout of a crop planted inside this nice looking pot.",
+    "use_action": {
+      "target": "pot_tomato_done",
+      "msg": "The sprout has grown into a beautiful plant, Nature is Incredible.",
+      "moves": 100,
+      "type": "delayed_transform",
+      "transform_age": 1000,
+      "not_ready_msg": "The crop is not ready to harvest yet."
+    }
+  },
+  {
+    "copy-from": "g_pot",
+    "id": "pot_tomato_done",
+    "type": "GENERIC",
+    "category": "other",
+    "name": { "str": "Grown Tomato Pot", "str_pl": "Grown Tomato Pots" },
+    "description": "A garden crop, fully grown and ready to harvest. Deconstruct to claim your prize."
+  }
+]
